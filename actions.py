@@ -13,18 +13,19 @@ from rasa_sdk import Action, Tracker
 from rasa_sdk.executor import CollectingDispatcher
 from rasa_sdk.events import SlotSet
 
-class ActionFacilitySearch(Action):
+class action_find_actor_movies(Action):
 
     def name(self) -> Text:
         print("got name")
-        return "action_facility_search"
+        return "action_find_actor_movies"
 
     def run(self, dispatcher: CollectingDispatcher,
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
         print("gonna dispatch!!!!")
-        facility = tracker.get_slot("facility_type")
-        address = "Hugo Bacharach"
-        dispatcher.utter_message("Here is the address of the {}:{}".format(facility, address))
+        facility = tracker.get_slot("actor")
+        movie = "Die Hard"#Mock para ver si funciona
+        #AQUÍ VA LA FUNCIÓN PARA ENCONTRAR LA PELÍCULA
+        dispatcher.utter_message("This is the movie:{}".format(movie))
 
-        return [SlotSet("address", address)]
+        return [SlotSet("movie", movie)]
