@@ -1,0 +1,61 @@
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - search_provider
+  - thanks
+  - inform
+
+entities:
+  - location
+  - facility_type
+
+slots:
+  location:
+    type: text
+  facility_type:
+    type: text
+  address:
+    type: unfeaturized
+
+actions:
+  - utter_greet
+  - utter_cheer_up
+  - utter_did_that_help
+  - utter_happy
+  - utter_goodbye
+  - utter_how_can_i_help
+  - utter_ask_location
+  - action_facility_search
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+  utter_how_can_i_help:
+   - text: "Hello. I am a medicare locator. I can help you find nearset hospital. How can I help?"
+   - text: "Hi. My names is medicare locator. How can I help you today?"
+  utter_ask_location:
+   - text: "Where should I look for the hospital? Or do you want that I locate the nearest?"
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
