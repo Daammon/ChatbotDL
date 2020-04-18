@@ -99,7 +99,13 @@
 - Look in IMDB for [Leonardo Dicaprio](actor) films
 
 ## intent: find_movie_release_date
-
+- When was released [Die Hard](movie)
+- When [Alien](movie) came out?
+- When [Back to the future](movie) was shown for the first time?
+- I want to know the date [Terminator](movie) was in cinemas
+- [Gladiator](movie) release date?
+- [Pulp Fiction](movie) date of release?
+ 
 ## intent: find_actors_coincidence_in_movies
 
 ## intent: find_movie_rankings_by_genre
@@ -213,17 +219,3 @@
 - extremely sad
 - so sad
 
-## regex:location
-- [0-9]{5}
-
-## synonym:xubh-q36u
-- hospital
-- hospitals
-
-## synonym:9wzi-peqs
-- home health agency
-- home health agencies
-
-## synonym:b27b-2uc7
-- nursing home
-- nursing homes
