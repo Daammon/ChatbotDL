@@ -98,7 +98,7 @@
 - What are the best [Tom Hanks](actor) movies?
 - Look in IMDB for [Leonardo Dicaprio](actor) films
 
-## intent: find_movie_release_date
+## intent:find_movie_release_date
 - When was released [Die Hard](movie)
 - When [Alien](movie) came out?
 - When [Back to the future](movie) was shown for the first time?
@@ -106,11 +106,11 @@
 - [Gladiator](movie) release date?
 - [Pulp Fiction](movie) date of release?
  
-## intent: find_actors_coincidence_in_movies
+## intent:find_actors_coincidence_in_movies
 
-## intent: find_movie_rankings_by_genre
+## intent:find_movie_rankings_by_genre
 
-# intent: find_movie_rankings_by_actor
+## intent:find_movie_rankings_by_actor
 
 
 ## intent:search_provider

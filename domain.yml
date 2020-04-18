@@ -3,47 +3,48 @@ intents:
   - goodbye
   - affirm
   - deny
-  - mood_great
-  - mood_unhappy
+  - find_actor_movies
+  - find_movie_release_date
+  - find_actors_coincidence_in_movies
+  - find_movie_rankings_by_genre
+  - find_movie_rankings_by_actor
   - bot_challenge
-  - search_provider
   - thanks
   - inform
 
 entities:
-  - location
-  - facility_type
+  - actor
+  - movie
+  - genre
 
 slots:
-  location:
+  actor:
     type: text
-  facility_type:
+  movie:
     type: text
-  address:
-    type: unfeaturized
+  genre:
+    type: text
+  releaseDate:
+    type: text
 
 actions:
   - utter_greet
-  - utter_cheer_up
   - utter_did_that_help
-  - utter_happy
   - utter_goodbye
   - utter_how_can_i_help
-  - utter_ask_location
-  - action_facility_search
+  - action_find_actor_movies
+  - action_find_movie_release_date
+  - action_find_actors_coincidence_in_movies
+  - action_find_movie_rankings_by_genre
+  - action_find_movie_rankings_by_actor
 responses:
   utter_greet:
   - text: "Hey! How are you?"
 
-  utter_cheer_up:
-  - text: "Here is something to cheer you up:"
-    image: "https://i.imgur.com/nGF1K8f.jpg"
 
   utter_did_that_help:
   - text: "Did that help you?"
 
-  utter_happy:
-  - text: "Great, carry on!"
 
   utter_goodbye:
   - text: "Bye"
@@ -52,10 +53,9 @@ responses:
   - text: "I am a bot, powered by Rasa."
 
   utter_how_can_i_help:
-   - text: "Hello. I am a medicare locator. I can help you find nearset hospital. How can I help?"
-   - text: "Hi. My names is medicare locator. How can I help you today?"
-  utter_ask_location:
-   - text: "Where should I look for the hospital? Or do you want that I locate the nearest?"
+   - text: "Hello. I am a movies geek. I can help you find movies and actors info. How can I help?"
+   - text: "Hi. My names is the cinema geek bot. How can I help you today?"
+
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
