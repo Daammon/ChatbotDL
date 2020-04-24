@@ -19,12 +19,14 @@ entities:
 
 slots:
   actor:
-    type: text
+    type: list
   movie:
     type: text
   genre:
     type: text
   releaseDate:
+    type: text
+  ranking:
     type: text
 
 actions:
