@@ -93,92 +93,244 @@
 
 ## intent:find_actor_movies
 - Which movie did [Bruce Willis](actor) play in?
+- Which film did [Will Smith](actor) play in?
 - I want to know all [Antonio Banderas](actor) movies
 - Tell me [Tom Cruise](actor) films
 - What are the best [Tom Hanks](actor) movies?
 - Look in IMDB for [Leonardo Dicaprio](actor) films
+- What films did [Jennifer Aniston](actor) play in?
+- Movies of [Jim Carrey](actor)
+- Hi, I would like to know the films that [Ben Johnson](actor) played in
+- Good afternoon, Could you tell me in which movies [Chuck Norris](actor) appears?
+- Show me the movies where [Alicia Silverstone](actor) plays
+- [Antonio Banderas](actor) movies
+- [Mel Gibson](actor) films
+- Good evening, may you tell me some [Melanie Griffith](actor) movies?
+- I want to know all [Arnold Schwarzenegger](actor) films
+- Movies in IMDB of [Kevin Spacey](actor)
+- Show me [Clint Eastwood](actor) movies
+- In which movie does [Andie MacDowell](actor) play?
+- In which film does [Rosario Dawson](actor) play?
+- In which movie does [Sarah Michelle Gellar](actor) star?
+- In which film does [Cristina Ricci](actor) star?
+- In which movie does [Carmen Electra](actor) appear?
+- In which film does [Alicia Silverstone](actor) appear?
+- What movies does [Aishwarya Rai](actor) play in?
+- What films does [Stella Warren](actor) play in?
+- What movies does [Mike Myers](actor) star in?
+- What films does [Will Ferrell](actor) star in?
+- What movies does [Lucy Liu](actor) appear in?
+- What films does [Michelle Pfeifer](actor) appear in?
+- movies [Zooey Deschanel](actor) stars in
+- films [Michael J. Fox](actor) stars in
+- all the movies [Meg Ryan](actor) stars in
+- all the films [Winona Ryder](actor) stars in
+- I want to know all [Sharon Stone](actor) movies
+- Tell me all [Kate Beckinsale](actor) movies
+- I want to know all [Jane Fonda](actor) films
+- Hello I want to know all [Amanda Bynes](actor) films
+- Good morning I want to know all [Kim Basinger](actor) films
+- Tell me all [Jessica Biel](actor) movies
+- Tell me all [Monica Bellucci](actor) films
+- Tell me [Carla Gugino](actor) movies
+- Tell me [Robert Redford](actor) films
+- Find [Kirsten Dunst](actor) movies
+- Find [Rachel Mcadams](actor) films
+- Find the movies in which [Paul Newman](actor) stars
+- Find the films in which [Liv Tyler](actor) stars
+- Find movies in which [Danny DeVito](actor) stars
+- Find films in which [Leslie Nielsen](actor) stars
+- Find movies in which [Ewan McGregor](actor) appears
+- Find films in which [Milla Jovovich](actor) appears
+- Can you tell me [Heath Ledger](actor) movies?
+- Can you tell me all [Elijah Wood](actor) films?
+- Hello can you tell me [Halle Berry](actor) movies?
+- Hello can you tell me all [Eva Mendes](actor) films?
+- Good morning can you tell me [Kevin Costner](actor) movies?
+- Good morning can you tell me all [Sean Connery](actor) films?
+- Look in IMDB for [Steve Martin](actor) films
+- Look in IMDB for [Keira Knightley](actor) movies
 
 ## intent:find_movie_release_date
-- When was released [Die Hard](movie)
+- When was released [Die Hard](movie)?
 - When [Alien](movie) came out?
 - When [Back to the future](movie) was shown for the first time?
 - I want to know the date [Terminator](movie) was in cinemas
 - [Gladiator](movie) release date?
 - [Pulp Fiction](movie) date of release?
+- When was released [Lord of the Rings](movie)
+- When was released [Age of Ultron](movie)
+- When was released [Big fish](movie)
+- hi show me the release date of [Big fish](movie)
+- hello show me the release date of [Midsommar](movie)
+- hi show me the release date of [Ready Player One](movie)
+- in which year did [Ready Player One](movie) come to theaters?
+- in which year did [Mother!](movie) come to theaters?
+- in which year did [The jungle book 2](movie) come to theaters?
+- IMDB when was [Mary Poppins](movie) released
+- when was [Rapunzel](movie) released IMDB
+- tell me when was [IT](movie) released
+- show me when was [Tangled](movie) released
+- when was [Now you see me](movie) released
+- i need to know When [Alien](movie) came out?
+- When [Back to the future](movie) was shown for the first time?
+- I want to know the date [Terminator](movie) was in cinemas
+- [Gladiator](movie) release date?
+- [Pulp Fiction](movie) date of release?
+- release date for [High School Musical](movie)?
+- release date for [Citizen Kane](movie) thank you
+- release date for [Mohana](movie) please
+- please release for [Lord of the Rings](movie)?
+- hi release for [Age of Ultron](movie)?
+- release for [Big fish](movie)?
  
 ## intent:find_actors_coincidence_in_movies
+- In what movie did [Alan Rickman](actor) and [Bruce Willis](actor) play together?
+- In what film did [John Travolta](actor) and [Olivia Newton John](actor) play together?
+- In what movie did [Tom Cruise](actor) and [Alisa Milano](actor) coincide?
+- What is the movie that  [Leonardo Dicaprio](actor) and [Tom Hanks](actor) did together?
+- I want to know the movie where [Jack Nicolson](actor) and [Bruce Willis](actor) play together?
+- I would like to know a movie where [The rock](actor) and [Wesly Snipes](actor) are in the crew
+- Tell me a movie with [Sharon Stone](actor) and [Michael J Fox](actor) are in the crew
+- Tell me a movie with [Morgan Freeman](actor) and [Robert Downey jr](actor) coincide
+- Movie with [Sigourney Weaver](actor) and [Brad Pitt](actor)
+- A movie with [Russel Crowe](actor) and [Samuel L Jackson](actor) in the casting
+- Give a movie where [Al Pacino](actor) plays with [Marlon Brando](actor)
+- Movie where [Scarlett Johanson](actor) and [Bruce Willis](actor) play together
+- Have [Bruce Willis](actor) and [Tom Cruise](actor) worked together?
+- Does [Michelle Rodriguez](actor) and [Steve Carell](actor) appear in the same film?
+- Does [Demi Moore](actor) and [Charlize Theron](actor) appear in the same movie?
+- I want to know if [Angelina Jolie](actor) and [Brad Pitt](actor) have worked together
+- Is there a movie where [Sandra Bullock](actor) and [Meryl Streep](actor) appear?
+- Is there a movie where [Bruce Willis](actor) and [Penelope Cruz](actor) work together?
+- Is there a film where [Tom Hanks](actor) and [Jason Statham](actor) appear?
+- Is there a film where [Dwayne Johnson](actor) and [Johnny Depp](actor) work together?
+- i want to know a movie where [Chris Hemsworth](actor) and [Will Smith](actor) work together
+- i want to know a movie where [Jim Carrey](actor) and [Zac Efron](actor) appear
+- i want to know a film where [Silvestre Stallone](actor) and [Robert de Niro](actor) work together
+- i want to know a film where [Eddie Murphy](actor) and [Ben Stiller](actor) appear
+- find me a movie where [Arnold Schwarzenegger](actor) and [Julia Roberts](actor) work together
+- find me a movie where [Owen Wilson](actor) and [Matt Damon](actor) appear
+- find me a film where [Keanu Reeves](actor) and [Megan Fox](actor) work together
+- find me a film where [George Clooney](actor) and [Meryl Streep](actor) appear
+- hello i want to know a movie where [Robert Downey Jr.](actor) and [Adam Sandler](actor) work together
+- hello i want to know a movie where [Jennifer Aniston](actor) and [Vin Diesel](actor) appear
+- hello i want to know a film where [Mel Gibson](actor) and [Anthony Hopkins](actor) work together
+- hello i want to know a film where [Richard Gere](actor) and [Salma Hayek](actor) appear
+- hello find me a movie where [Orlando Bloom](actor) and [Harrison Ford](actor) work together
+- hello find me a movie where [Samuel L Jackson](actor) and [Jack Nicholson](actor) appear
+- hello find me a film where [Drew Barrymore](actor) and [Brendan Fraser](actor) work together
+- hello find me a film where [Natalie Portman](actor) and [Al Pacino](actor) appear
+- good morning i want to know a movie where [Martin Lawrence](actor) and [Clint Eastwood](actor) work together
+- good morning i want to know a movie where [Scarlett Johansson](actor) and [Cameron Diaz](actor) appear
+- good morning i want to know a film where [Jessica Alba](actor) and [Nicole Kidman](actor) work together
+- good morning i want to know a film where [Scarlett Johansson](actor) and [Cameron Diaz](actor) appear
+- good morning find me a movie where [Jack Black](actor) and [Kevin Costner](actor) work together
+- good morning find me a movie where [Sean Connery](actor) and [Cuba Gooding Jr](actor) appear
+- good morning find me a film where [Catherine Zeta Jones](actor) and [Lindsay Lohan](actor) work together
+- good morning find me a film where [Keira Knightley](actor) and [Steve Martin](actor) appear
 
 ## intent:find_movie_rankings_by_genre
+- What is the best [action](genre) Movie?
+- IMDB, find the best [animation](genre) movie
+- Top movie in [horror](genre) please
+- Tell me the best [adventure](genre) movie
+- hi tell me the best [war](genre) movie
+- tell me the best [documentary](genre) movieI want to watch the best [comedy](genre) thank you
+- I want to watch the top rated [sci-fi](genre) movie
+- I want to watch the top rated [comedy](genre)
+- I want to watch the top rated [horror](genre) movie
+- I want to watch the top rated [adventure](genre) movie
+- I want to watch the top rated [Film-Noir](genre)
+- whats the top rated [war](genre) movie
+- whats the top rated [comedy](genre)
+- whats the top rated [horror](genre) movie
+- whats the top rated [adventure](genre) movie
+- whats the top rated [Film-Noir](genre)
+- what is the best [animation](genre) movie?
+- what is the best  [fantasy](genre)
+- what is the best [action](genre)
+- best [mistery](genre) movie
+- best [crime](genre) movie
+- top rated [music](genre) movie
+- What is the top movie for [children](genre)?
+- What is the top [children](genre)'s movie
+- What is the top [musical](genre) movie?
+- What is the top [action](genre)?
+- What is the top [crime](genre) ?
+- What is the top [crime](genre) movie ?
+- What is the top [biography](genre) ?
+- What is the top [drama](genre) movie?
+- hello show me the best [biography](genre) movie
+- hello show me the best [thriller](genre)
+- hello show me the best [romance](genre) movie
+- hello show me the best [music](genre) movie
+- IMDB show me the greatest [scifi](genre) movie ever made
+- IMDB show me the greatest [documentary](genre)
+- IMDB show me the greatest [drama](genre)
+- IMDB show me the greatest [film-Noir](genre)
+- IMDB show me the greatest [scifi](genre) movie ever made
+- show me the greatest [documentary](genre) in IMDB
+- show me the greatest [drama](genre) IMDB
+- show me the greatest [film-Noir](genre) in IMDB
+- hi i want to the top rated [Film-Noir](genre)
+- hello i want to the top rated [action](genre)
 
 ## intent:find_movie_rankings_by_actor
-
-
-## intent:search_provider
-- i need a [hospital](facility_type)
-- find me a nearby [hospital](facility_type)
-- show me [hospitals](facility_type)
-- [hospital](facility_type)
-- find me a nearby [hospital](facility_type) my zip code is [10119](location)
-- i need a [home health agency](facility_type)
-- find me a nearby [home health agency](facility_type)
-- show me [home health agency](facility_type)
-- [home health agency](facility_type)
-- find me a nearby [home health agency](facility_type) my zip code is [10119](location)
-- find me a nearby [nursing home](facility_type)
-- show me [nursing home](facility_type)
-- [nursing home](facility_type)
-- find me a nearby [nursing home](facility_type) my zip code is [10119](location)
-- i need a [hospital](facility_type) my zip code is [77494](location)
-- my zip code is [30277](location) and i need a [nursing home](facility_type)
-- my zip code is [86602](location) and i need a [hospital](facility_type)
-- my zip code is [47516](location) and i need a [home health agency](facility_type)
-- i need a [nursing home](facility_type) at [77474](location)
-- i need a [hospital](facility_type) at [77474](location)
-- i need a [home health agency](facility_type) at [77474](location)
-- i am in [Amarillo](location) and i need a [nursing home](facility_type)
-- i am in [New York](location) and i need a [hospital](facility_type)
-- i am in [Las Vegas](location) and i need a [home healt agency](facility_type)
-- i need a [nursing home](facility_type) in [Katy](location)
-- i need a [hospital](facility_type) in [Waco](location)
-- i need a [home health agency](facility_type) in [Clarksville](location)
-- show me [nursing home](facility_type) in [Knoxville](location)
-- show me [hospital](facility_type) in [Durham](location)
-- show me [home health agency](facility_type) in [Detroit](location)
-- find me a nearby [home health agency](facility_type) in [Reno](location)
-- hi i am in [Tampa](location) i need a [nursing  home](facility_type:b27b-2uc7)
-- hi i am in [San Diego](location) i need a [hospital](facility_type:xubh-q36u)
-- hi i am in [Nashville](location) i need a [home health agenc](facility_type:9wzi-peqs)
-- hi i am in [Sacramento](location) i need a [nursing  home](facility_type:b27b-2uc7)
-- hi i am in [Springfield](location) i need a [hospital](facility_type:xubh-q36u)
-- hi i am in [Atlanta](location) i need a [home health agenc](facility_type:9wzi-peqs)
-- hi i am in [Chicago](location) i need a [nursing  home](facility_type:b27b-2uc7)
-- hi i am in [Santa Cruz](location) i need a [hospital](facility_type:xubh-q36u)
-- hi i am in [Boston](location) i need a [home health agenc](facility_type:9wzi-peqs)
-- hello i am in [Tampa](location) i need a [nursing  home](facility_type:b27b-2uc7)
-- hello i am in [San Diego](location) i need a [hospital](facility_type:xubh-q36u)
-- hello i am in [Nashville](location) i need a [home health agenc](facility_type:9wzi-peqs)
-- hello i am in [Sacramento](location) i need a [nursing  home](facility_type:b27b-2uc7)
-- hello i am in [Springfield](location) i need a [hospital](facility_type:xubh-q36u)
-- hello i am in [Atlanta](location) i need a [home health agenc](facility_type:9wzi-peqs)
-- hello i am in [Chicago](location) i need a [nursing  home](facility_type:b27b-2uc7)
-- hello i am in [Santa Cruz](location) i need a [hospital](facility_type:xubh-q36u)
-- hello i am in [Boston](location) i need a [home health agenc](facility_type:9wzi-peqs)
-- Good morning i am in [Tampa](location) i need a [nursing  home](facility_type:b27b-2uc7)
-- Good morning i am in [San Diego](location) i need a [hospital](facility_type:xubh-q36u)
-- Good morning i am in [Nashville](location) i need a [home health agenc](facility_type:9wzi-peqs)
-- Good morning i am in [Sacramento](location) i need a [nursing  home](facility_type:b27b-2uc7)
-- Good morning i am in [Springfield](location) i need a [hospital](facility_type:xubh-q36u)
-- Good morning i am in [Atlanta](location) i need a [home health agenc](facility_type:9wzi-peqs)
-- Good morning i am in [Chicago](location) i need a [nursing  home](facility_type:b27b-2uc7)
-- Good morning i am in [Santa Cruz](location) i need a [hospital](facility_type:xubh-q36u)
-- Good morning i am in [Boston](location) i need a [home health agenc](facility_type:9wzi-peqs)
-- Hello again i need a [nursing home](facility_type) in [Katy](location)
-- Hello again i need a [hospital](facility_type) in [Waco](location)
-- Hello again i need a [home health agency](facility_type) in [Clarksville](location)
-- Good morning i need a [nursing home](facility_type) in [Katy](location)
-- Good morning i need a [hospital](facility_type) in [Waco](location)
-- Good morning i need a [home health agency](facility_type) in [Clarksville](location)
-- Can you tell me a [nursing home](facility_type) in [Oklahoma City](location) ?
+- What is the best movie of [Lauren Bacall](actor)? 
+- Give me the best movies of [James Dean](actor)
+- What is the ranking with [Judy Garland](actor) movies?
+- I want to know the best movie of [Amy Hathaway](actor)
+- Which are the best movies of [Colt 45](actor)?
+- Find me the best movies with [Aadil](actor)
+- May I know [Balbino Lacosta](actor) most well-known movies?
+- Find me [Rua Acorn](actor) top films
+- Tell me [Ana Acosta](actor) top movies
+- I wanna know [Tony Acone](actor) most important films
+- I wish to know [Larissa Laenne](actor) best films
+- Most important movies that [Julia Roberts](actor) starred
+- Which ones are [Scarlett Johansson](actor) top performances?
+- I am curious about [Joaquin Phoenix](actor) best interpretations
+- I am interested in [Chris Pratt](actor) best acting
+- I am wondering  which ones are [Amy Adams](actor) top films
+- Could you tell me [Johnny Depp](actor) movie ranking?
+- May I know [Keira Knightley](actor) best movies?
+- I am so curious about [Suraj Sharma](actor) top movies
+- I really want to know some movies of [Rafe Spall](actor)
+- Where did [Prabhas](actor) appear?
+- In which famous movies did [Ramya Krishnan](actor) appear?
+- Where did [Kang-ho Song](actor) act?
+- Tell me [Yeo-jeong Jo](actor) film ranking
+- I am curious about [Ji-min Han](actor) ranking of movies
+- Which are [Penélope Cruz](actor) most prominent movies
+- I need the most famous films of [Hugo Silva](actor)
+- What is the best movie of [Adam Driver](actor)? 
+- Give me the best movies of [Linda Powell](actor)
+- What is the ranking with [Joanne Tucker](actor) movies?
+- I want to know the best movie of [Emilia Clarke](actor)
+- Which are the best movies of [Emilia Clarke](actor)?
+- Find me the best movies with [Kang-woo Kim](actor)
+- May I know [Jung-ah Park](actor) most well-known movies?
+- Find me [Constance Wu](actor) top films
+- Tell me [Gemma Chan](actor) top movies
+- I wanna know [Araya A. Hargate](actor) most important films
+- I wish to know [Will Smith](actor) best films
+- Most important movies that [Tatyana Ali](actor) starred
+- Which ones are [Joseph Marcell](actor) top performances?
+- I am curious about [Regina King](actor) best interpretations
+- I am interested in [Halle Berry](actor) best acting
+- I am wondering  which ones are [Pam Grier](actor) top films
+- Could you tell me [Whoopi Goldberg](actor) movie ranking?
+- May I know [Chris Pine](actor) best movies?
+- I am so curious about [Zoe Saldana](actor) top movies
+- I really want to know some movies of [Zoë Kravitz](actor)
+- Where did [Shailene Woodley](actor) appear?
+- In which famous movies did [Priyanka Chopra](actor) appear?
+- Where did [Alexandra Daddario](actor) act?
+- Tell me [Zendaya](actor) film ranking
+- I am curious about [Yifei Liu](actor) ranking of movies
+- Which are [Meryl Streep](actor) most prominent movies?
+- I need the most famous films of [Heather Matarazzo](actor)
 
 ## intent:thanks
 - Thanks

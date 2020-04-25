@@ -234,4 +234,3 @@ def Find_best_movie_by_genre(genre):
   print(best_movie_genre)
   return(best_movie_genre)
 
-print(Find_best_movie_by_genre('action'))

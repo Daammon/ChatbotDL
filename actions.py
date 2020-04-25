@@ -25,9 +25,8 @@ class action_find_actor_movies(Action):
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
         print("gonna dispatch!!!!")
         actor = tracker.get_slot("actor")
-        movie = Find_all_movies_of_actor(actor)
-        #movie = "Die Hard"#Mock para ver si funciona
-        #AQUÍ VA LA FUNCIÓN PARA ENCONTRAR LA PELÍCULA
+        movie = Find_all_movies_of_actor(actor[0])
+
         dispatcher.utter_message("This is the movie:{}".format(movie))
 
         return [SlotSet("movie", movie)]
@@ -87,7 +86,7 @@ class action_find_movie_rankings_by_actor(Action):
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
         actor = tracker.get_slot("actor")
-        rankingByActor = Find_best_movies_actor(actor)
+        rankingByActor = Find_best_movies_actor(actor[0])
         dispatcher.utter_message("This is the ranking of the top {} movies: {}".format(actor, rankingByActor))
 
         return [SlotSet("ranking", rankingByActor)]
