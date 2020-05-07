@@ -228,9 +228,13 @@ def Find_best_movie_by_genre(genre):
 
   print(" URL de mejores pelis de la categoría: " + browser.current_url )
 
-  xpath = "//*[@id=\"main\"]/div/div[3]/div/div[1]/div[3]/h3/a"
+  best_movies_genre=[]
 
-  best_movie_genre=browser.find_element_by_xpath(xpath).text
+  for i in range(5):
+    xpath = "//*[@id=\"main\"]/div/div[3]/div/div[" + str(i+1) + "]/div[3]/h3/a"
+    elements=browser.find_element_by_xpath(xpath)
+    best_movies_genre.append(elements.text)
+  
   print(best_movie_genre)
   return(best_movie_genre)
 
